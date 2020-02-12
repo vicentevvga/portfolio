@@ -1,5 +1,13 @@
 body{
 	background:black;
 	font-family: courier;
+	color:pink;
+}
+
+h1, h2{
+	color: #555;
+}
+
+h4{
 	color:white;
 }
