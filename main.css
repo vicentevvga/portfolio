@@ -4,14 +4,26 @@ body{
 	color:pink;
 }
 
-h1, h2{
-	color: #555;
+h1,h2{
+	color: #DCDCDC;
 }
 
 h4{
 	color:white;
 }
 
-p {
+p{
   margin: 80px;
+}
+
+
+/*COLORES A LOS LINK*/
+a{
+color: #FF1493;
+}
+a:visited {
+ color: #FF1493;
+}
+a:hover, a:active, a:focus {
+  color:#00FFFF;
 }
