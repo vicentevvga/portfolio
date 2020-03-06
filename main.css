@@ -4,9 +4,14 @@ body{
 	color:pink;
 }
 
+<<<<<<< HEAD
 h1{
 	color: #DCDCDC;
 	margin-top: 10px;
+=======
+h1,h2{
+	color: #DCDCDC;
+>>>>>>> 56b4e4939ef18dada8cb2f7fa511d3db814e990e
 }
 
 h2{
@@ -20,6 +25,7 @@ h4{
 }
 
 p{
+<<<<<<< HEAD
   margin: 20px; /*SEPARACIÓN ENTRE PÁRRAFOS*/
   text-align: justify; /*TEXTO JUSTIFICADÖ*/
 }
@@ -65,4 +71,19 @@ div#side2 {
     width:150px;
     top: 0px;
     left: 800px;
+=======
+  margin: 80px;
+}
+
+
+/*COLORES A LOS LINK*/
+a{
+color: #FF1493;
+}
+a:visited {
+ color: #FF1493;
+}
+a:hover, a:active, a:focus {
+  color:#00FFFF;
+>>>>>>> 56b4e4939ef18dada8cb2f7fa511d3db814e990e
 }
