@@ -1,41 +1,3 @@
-head{
-	background:white;
-		color:blue;
-}
-
-body{
-	background:black;
-	font-family: courier;
-	color:pink;
-}
-
-h1{
-	color: #DCDCDC;
-	margin-top: 10px;
-}
-
-h2{
-	color: #DCDCDC;
-	margin-top: 40px;
-}
-
-h3{
-    font-style: italic;
-}
-
-h4{
-	color:white;
-}
-
-p{
-  margin: 20px; /*SEPARACIÓN ENTRE PÁRRAFOS*/
-  text-align: justify; /*TEXTO JUSTIFICADÖ*/
-}
-
-b{
-	color: white;
-}
-
 /*COLORES A LOS LINK*/
 a{
 color: #ff0080;
@@ -45,6 +7,16 @@ a:visited {
 }
 a:hover, a:active, a:focus {
   color: #00FFFF;
+}
+
+b{
+    color: white;
+}
+
+body{
+    background:black;
+    font-family: courier;
+    color:pink;
 }
 
 /*TEXTO EN COLUMNAS*/
@@ -73,4 +45,45 @@ div#side2 {
     width:150px;
     top: 0px;
     left: 700px;
+}
+
+head{
+	background:white;
+		color:blue;
+}
+
+h1{
+	color: #DCDCDC;
+	margin-top: 10px;
+}
+
+h2{
+	color: #DCDCDC;
+	margin-top: 40px;
+}
+
+h3{
+    font-style: italic;
+}
+
+h4{
+	color:white;
+}
+
+.gallery{
+    margin: 10px 50px;
+}
+.gallery{
+    transition: 1s;
+    padding: 15px;
+    /*width: 200px;*/
+}
+.gallery img:hover{
+filter: grayscale(100%);
+transform: scale(1.1);
+}
+
+p{
+  margin: 20px; /*SEPARACIÓN ENTRE PÁRRAFOS*/
+  text-align: justify; /*TEXTO JUSTIFICADÖ*/
 }
