@@ -126,13 +126,13 @@ li{
 
 
 
-
+/*
 
 pre{
     font-family: monospace;
     white-space: pre;
 }
-
+*/
 .ascii-art {
     font-family: monospace;
     white-space: pre;
@@ -143,3 +143,13 @@ pre{
 pre {
  font-size: max(0.2rem, 1vmin);
 }*/
+
+
+pre {
+    font-family: Courier;
+}
+
+@font-face {
+  font-family: Courier;
+  src: url(Courier.ttf);
+}
