@@ -133,6 +133,10 @@ pre{
     white-space: pre;
 }
 
+.ascii-art {
+    font-family: monospace;
+    white-space: pre;
+}
 
 
 /*
