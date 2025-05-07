@@ -134,5 +134,5 @@ li{
 
 
 header pre {
- font-size: 0.5vw;
+ font-size: max(0.2rem, 1vmin);
 }
