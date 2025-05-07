@@ -1,0 +1,41 @@
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 7.25rem auto 5rem;
+  grid-template-areas: "header header" "main sidebar" "footer footer";
+  min-height: 100vh;
+}
+
+header {
+  grid-area: header;
+}
+
+header pre {
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 70%;
+}
+
+@media only screen and (max-device-width: 700px) {
+  body {
+    grid-template-rows: 6rem auto 5rem;
+  }
+  header {
+    font-size: 55%;
+  }
+}
+
+<header>
+  <pre>
+ ___       __    ________   ___    _________   ________   _____ ______    ________   _______    ________      
+|\  \     |\  \ |\   __  \ |\  \  |\___   ___\|\   __  \ |\   _ \  _   \ |\   ____\ |\  ___ \  |\   ___  \    
+\ \  \    \ \  \\ \  \|\  \\ \  \ \|___ \  \_|\ \  \|\  \\ \  \\\__\ \  \\ \  \___|_\ \   __/| \ \  \\ \  \   
+ \ \  \  __\ \  \\ \   __  \\ \  \     \ \  \  \ \  \\\  \\ \  \\|__| \  \\ \_____  \\ \  \_|/__\ \  \\ \  \  
+  \ \  \|\__\_\  \\ \  \ \  \\ \  \____ \ \  \  \ \  \\\  \\ \  \    \ \  \\|____|\  \\ \  \_|\ \\ \  \\ \  \ 
+   \ \____________\\ \__\ \__\\ \_______\\ \__\  \ \_______\\ \__\    \ \__\ ____\_\  \\ \_______\\ \__\\ \__\
+    \|____________| \|__|\|__| \|_______| \|__|   \|_______| \|__|     \|__||\_________\\|_______| \|__| \|__|
+                                                                            \|_________|                              
+  </pre>
+</header>

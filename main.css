@@ -128,11 +128,14 @@ li{
 
 
 
+pre{
+    font-family: monospace;
+    white-space: pre;
+}
 
 
 
-
-
+/*
 pre {
  font-size: max(0.2rem, 1vmin);
-}
+}*/
