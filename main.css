@@ -104,7 +104,10 @@ transform: scale(1.2);
 p{
   margin: 20px; /*SEPARACIÓN ENTRE PÁRRAFOS*/
   text-align: justify; /*TEXTO JUSTIFICADÖ*/
+  width:800px;
         background-color: black;
+  font-size: 25;
+}
 }
 
 ul{
@@ -113,4 +116,9 @@ ul{
 
 li{
     background-color: black;
+      margin: 20px; /*SEPARACIÓN ENTRE PÁRRAFOS*/
+  text-align: justify; /*TEXTO JUSTIFICADÖ*/
+  width:800px;
+        background-color: black;
+  font-size: 25;
 }
