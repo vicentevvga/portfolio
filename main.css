@@ -105,7 +105,7 @@ transform: scale(1.2);
 p{
   margin: 20px; /*SEPARACIÓN ENTRE PÁRRAFOS*/
   /*text-align: justify; /*TEXTO JUSTIFICADÖ*/
-  width:900px;
+  width:500px;
         background-color: black;
   font-size: 25;
 }
