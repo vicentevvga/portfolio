@@ -34,6 +34,7 @@ b{
 div#columns {
     position: relative;
     width: 750px;
+    margin: 0 auto;
     /*top: 100px;
     background-color: #CCCCCC;*/
 }
@@ -47,15 +48,15 @@ div#side1 {
 }
 div#content {
     position: relative;
-    width: 600px;
+    width: 800px;
     top: 0px;
-    left: 100px;
+
 }
 div#side2 {
     position:absolute;
     width:350px;
     top: 0px;
-    left: 700px;
+    left: 600px;
     color:#00FFFF;
     font-size: 15;
 }
