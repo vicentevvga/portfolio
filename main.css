@@ -161,3 +161,68 @@ pre {
   font-family: Courier;
   src: url(Courier.ttf);
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recommendations {
+    padding: 80px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.recommendations h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    text-align: center;
+    opacity: 0.8;
+    margin-bottom: 50px;
+}
+
+.recommendation-card {
+    background: rgba(255,255,255,0.05);
+    border-left: 4px solid #ffb400;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+}
+
+.recommendation-card h3 {
+    margin: 0;
+}
+
+.recommendation-role {
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.recommendation-relationship {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+.recommendation-card blockquote {
+    margin: 0;
+    line-height: 1.7;
+    font-style: italic;
+}
