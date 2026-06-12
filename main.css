@@ -226,3 +226,24 @@ pre {
     line-height: 1.7;
     font-style: italic;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.video-frame {
+    border: 2px solid #ff69b4;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 12px rgba(255,105,180,0.5);
+}
